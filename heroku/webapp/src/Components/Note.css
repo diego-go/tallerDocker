@@ -1,0 +1,42 @@
+.Note {
+  background: #fff;
+  padding: .75em;
+  position: relative;
+}
+
+.Note-container {
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
+  margin: .5em;
+  display: flex;
+  flex-direction: column;
+}
+
+.Note-edit-menu {
+  background-color: #333;
+  color: white;
+  padding: 1em;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Note-edit-btn {
+  font-size: 1.75em;
+}
+
+.Note-textarea {
+  font-size: 1.5em;
+  width: 100%;
+  border: none;
+  outline: none;
+  resize: none;
+}
+
+.green {
+  color: #26A69A;
+}

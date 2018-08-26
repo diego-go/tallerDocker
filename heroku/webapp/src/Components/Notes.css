@@ -1,0 +1,9 @@
+.Notes {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.Notes-pad-end {
+  height: 90px;
+}

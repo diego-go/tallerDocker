@@ -1,0 +1,12 @@
+version: '2'
+
+services:
+ drupal:
+   image: drupal
+   ports:
+    - '8080:80'
+#Nuestra base de datos
+ postgres: 
+   image: postgres
+   environment:
+     - POSTGRES_PASSWORD=123456
